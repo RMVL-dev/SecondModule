@@ -15,7 +15,6 @@ value = input("Enter the value: ")
 
 if columns.isdigit() and rows.isdigit():
     matrix = get_matrix(int(rows), int(columns), value)
-    for col in range(int(rows)):
-        print(matrix[col])
+    print(matrix)
 else:
     print("Invalid data")
